@@ -1,0 +1,341 @@
+/* ============================================
+   FLOWER SHOP HOMEPAGE - CUSTOM STYLES
+   - All sections styled to match design guide
+   - Comments explain each section
+   ============================================ */
+
+:root {
+  --primary-color: #dc3545;      /* Red for accent buttons */
+  --text-dark: #333;
+  --text-light: #666;
+  --bg-light: #f9f9f9;
+  --border-color: #eee;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  color: var(--text-dark);
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000 !important;
+}
+
+.navbar .nav-link {
+  margin: 0 10px;
+  color: #555 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+/* ========== HERO SECTION ========== */
+.hero-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ========== CATEGORY SECTION ========== */
+.category-section {
+  padding: 40px 0;
+}
+
+.category-filter {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.category-item {
+  text-align: center;
+}
+
+.category-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.category-icon:hover {
+  transform: scale(1.1);
+}
+
+/* ========== FLOWERS SECTION HEADER ========== */
+.flowers-header {
+  padding: 30px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* ========== PRODUCT GRID ========== */
+.flowers-grid {
+  padding: 50px 0;
+  background: #fff;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  background: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.product-image-wrapper {
+  overflow: hidden;
+  border-radius: 8px;
+  height: 200px;
+  background: var(--bg-light);
+  margin-bottom: 15px;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-body {
+  text-align: center;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* ========== BEST SELLERS / TESTIMONIALS ========== */
+.best-sellers {
+  padding: 60px 0;
+  background: var(--bg-light);
+}
+
+.testimonials-wrapper {
+  padding: 20px 0;
+}
+
+.testimonial-item {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial-item:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+}
+
+.testimonial-item h5 {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.quote-text {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* ========== TEAM SECTION ========== */
+.team-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.team-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-image:hover {
+  transform: scale(1.03);
+}
+
+/* ========== FOOTER ========== */
+.footer {
+  background: #222;
+  padding: 30px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* ========== BUTTONS ========== */
+.btn-danger {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-weight: 600;
+  padding: 10px 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .category-filter {
+    gap: 20px;
+  }
+
+  .category-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .product-card {
+    text-align: center;
+  }
+
+  .testimonials-wrapper {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-section {
+    padding: 30px 0;
+  }
+
+  .category-filter {
+    gap: 15px;
+  }
+
+  .category-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-image-wrapper {
+    height: 150px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer .col-md-6:last-child {
+    margin-top: 15px;
+  }
+}
+
+/* ========== ACCESSIBILITY ========== */
+a:focus, button:focus {
+  outline: 3px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* ========== UTILITY CLASSES ========== */
+.text-danger {
+  color: var(--primary-color) !important;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}

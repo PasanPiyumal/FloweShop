@@ -1,0 +1,83 @@
+IMAGE INVENTORY GUIDE - HAPPY MOTHERS DAY FLOWER SHOP
+=====================================================
+
+Total Images Needed: 18
+
+SECTION 1: HERO SECTION (1 image)
+----------------------------------
+File: images/hero-image.jpg
+Location: Right side of "HAPPY MOTHERS DAY" title
+Recommended Size: 500x400px or larger
+Purpose: Main welcome/greeting image
+
+SECTION 2: CATEGORY FILTER (4 images)
+--------------------------------------
+File: images/category-1.jpg
+File: images/category-2.jpg
+File: images/category-3.jpg
+File: images/category-4.jpg
+Location: Horizontal row below hero
+Recommended Size: 80x80px each (should be square)
+Purpose: Clickable flower category icons
+
+SECTION 3: FLOWERS BANNER (1 image)
+------------------------------------
+File: images/flowers-banner.jpg
+Location: Above product grid
+Recommended Size: 1200x300px
+Purpose: Large decorative banner
+
+SECTION 4: PRODUCT CARDS (8 images)
+------------------------------------
+Files: images/product-1.jpg through images/product-8.jpg
+Location: 4x2 grid layout
+Recommended Size: 400x400px each
+Purpose: Individual flower product photos
+
+SECTION 5: TESTIMONIAL BANNER (1 image)
+----------------------------------------
+File: images/testimonial-banner.jpg
+Location: Left side of "Best Sellers" section
+Recommended Size: 500x400px
+Purpose: Featured products or best sellers banner
+
+SECTION 6: PROFILE PICTURES (4 images)
+---------------------------------------
+Files: images/profile-1.jpg
+       images/profile-2.jpg
+       images/profile-3.jpg
+       images/profile-4.jpg
+Location: Right side testimonial section (vertical stack)
+Recommended Size: 150x150px (displayed as 80x80px circular)
+Purpose: Customer testimonial profile pictures
+
+SECTION 7: TEAM GALLERY (3 images)
+-----------------------------------
+Files: images/team-1.jpg
+       images/team-2.jpg
+       images/team-3.jpg
+Location: Bottom "Our Team" section
+Recommended Size: 600x400px each
+Purpose: Team photos or shop gallery
+
+QUICK SETUP STEPS:
+==================
+1. Create folder: d:\MyWebsite\images\
+2. Place 18 images with exact names listed above
+3. Save locally and test
+4. Create ZIP for submission
+
+IMAGE NAMING RULES:
+===================
+- Use EXACT names (case-sensitive on some servers)
+- Use lowercase for filenames
+- Use hyphens (-) instead of spaces
+- Supported formats: JPG, PNG, WebP, GIF
+
+TIPS FOR IMAGE SELECTION:
+=========================
+✓ Use professional flower photos (high quality)
+✓ Ensure products are well-lit and centered
+✓ Use consistent background style
+✓ Make profile pictures friendly and professional
+✓ All images should match the flower shop aesthetic
